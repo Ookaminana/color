@@ -5,9 +5,9 @@ type UseChangeReturnType = {
     onChange:any    
 }
 
-type UseChangeType = {
-    initialValue:string
-}
+// type UseChangeType = {
+//     initialValue:string
+// }
 
 // export const useInput = (
 //     params: UseChangeType = {}
@@ -15,10 +15,11 @@ type UseChangeType = {
     
 // }
 
-export const useInput = (params: UseChangeType): UseChangeReturnType => {
-    const [value, setValue] = useState(params.initialValue)
+export const useInput = ( initialValue:string ): UseChangeReturnType => {
+    const [value, setValue] = useState(initialValue)
     const onChange = (event:any) => {
         setValue(event.target.value)
+        // console.log('event.target.value ',event.target.value);        
     }
     return{
         value,

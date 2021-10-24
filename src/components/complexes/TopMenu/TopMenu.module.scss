@@ -1,4 +1,4 @@
-.menuItemLink{
+.menuItemLink, .menuItemActiveLink{
     font-family: Gotham Pro;
     font-style: normal;
     font-weight: normal;
@@ -7,16 +7,11 @@
     text-align: center;
     letter-spacing: -0.408px;
     color: #FFFFFF;
+    margin-right: 40px;   
 }
 
-.menuItemActiveLink{
-    font-family: Gotham Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 22px;
-    text-align: center;
-    letter-spacing: -0.408px;
-    color: #FFFFFF;
-    text-decoration:underline;
+.menuItemActiveLink{   
+    // text-decoration:underline;
+    // text-decoration-line: underline;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
 }

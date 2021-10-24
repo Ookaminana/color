@@ -1,0 +1,64 @@
+@import 'config';
+/*
+=============================
+Reset
+=============================
+*/
+
+@import 'reset';
+
+/*
+=============================
+Typography
+=============================
+*/
+
+@import 'fonts';
+
+/*
+=============================
+Body
+=============================
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+#root > div {
+    height: 100%;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #fff;
+    background-color: #1F2223;
+    overflow: hidden;
+}
+
+input,
+button,
+textarea {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}

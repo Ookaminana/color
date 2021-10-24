@@ -4,10 +4,14 @@
     background: #007AFF;
     border-radius: 8px;
 
-    font-family: Gotham Pro;
+    font-family: 'Gotham Pro';
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
     line-height: 22px;       
     color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
