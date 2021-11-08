@@ -1,0 +1,9 @@
+.wrapper{
+    width: 291px;
+    height: 54px;    
+    display: grid;
+    grid-template-columns: repeat(4, 54px);
+    grid-auto-rows: minmax(54px, auto);    
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}

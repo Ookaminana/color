@@ -12,8 +12,8 @@ const ColorItem: FC<Props> = ({
     children
 }) => {
     return(
-        <div className={styles.wrapper} 
-            // style={`color:${color}`}
+        <div className={styles.wrapper}             
+            style={{ backgroundColor: `${color}` }}
         >
              
         </div>
